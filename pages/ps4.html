@@ -4,52 +4,259 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sección PS4</title>
+    <title>Sección PC</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body id="bodyps4">
+  <body style="background-color: black; margin-bottom: 0;">
+    <!-- INICIO DEL HEADER -->
     <header>
-      <div class="top">
-        <img
-          class="imgheader"
-          src="../images/playstation.jpg"
-          alt="Header de PlayStation."
-        />
-        <h1>Gaming House</h1>
-        <nav>
-          <ul>
-            <li><a href="../pages/PC.html">PC</a></li>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../pages/Series-X.html">Series X</a></li>
-            <li><a href="../pages/contact.html">Contacto</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <div class="container">
-        <div class="texto-izq">Go Left</div>
-        <img src="../images/God-of-War-Ragnarok-Wallpaper.jpg" alt="Imagen" />
-        <div class="texto-der">Go Right</div>
-        <button type="submit" class="texto-abajo">Comprar</button>
-      </div>
-    </main>
+      <nav
+      class="navbar navbar-expand-lg bg-dark navbar-dark border-bottom border-bottom-dark"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="../images/joystick logo.png"
+            alt="Logo"
+            width="100"
+            height="100"
+            class="d-inline-block align-text-top"
+          />
+        </a>
 
-    <footer>
-      <div>
-        <div>
-          <h3>Información de Contacto</h3>
-          <p>
-            Dirección: Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Optio, quod.
-          </p>
-          <p>Teléfono: +1 234 5678</p>
-          <p>
-            Email: Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatem, iure?
-          </p>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- INTERIOR DEL NAV -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Consolas
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="../pages/pc.html">PC</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/ps4.html"
+                    >PlayStation</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../pages/series-x.html"
+                    >Series X</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/contact.html"
+                >¡Contactanos!</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscá tu juego..."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar!
+            </button>
+          </form>
         </div>
       </div>
-    </footer>
+    </nav>
+  </header>
+    <!-- FIN DEL HEADER -->
+    <!-- INICIO DEL MAIN -->
+    <main class="container-fluid">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <!-- INTERIOR CAROUSEL -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="../images/gowragnarok.jpg"
+                  class="d-block w-100 h-auto"
+                  alt="Imagen God of War Ragnarok"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>God of War Ragnarok</h5>
+                  <p>
+                    Sigue la aventura del famoso y retirado dios de la guerra, Kratos, junto con su hijo Atreus, ambos deberan continuar su viaje en busca de los gigantes y derrocar una nueva presión que acecha en cada trueno y cada pluma.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../images/ffxvi.jpg"
+                  class="d-block w-100 h-auto"
+                  alt="Imagen FFXVI"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>FFXVI</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio recusandae, in tempore a, molestiae, eaque cumque quisquam minus quidem laborum quam eveniet obcaecati consectetur quo. Error hic at tempore cum..
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../images/horizonfw.jpg"
+                  class="d-block w-100 h-auto"
+                  alt="Imagen Videojuego Horizon Forbidden West"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Horizon Forbidden West</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores accusamus commodi doloribus veniam non odit, repudiandae culpa deleniti animi incidunt repellendus quasi voluptates autem corrupti laboriosam cupiditate, beatae soluta..
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- FIN DEL MAIN  -->
+    <!-- INICIO FOOTER  -->
+<footer class="bg-dark text-center text-white py-4 mb-0">
+  <div class="container footer-container" style="margin-top: 25px">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5>Contacto</h5>
+        <p>
+          <strong>Teléfono:</strong> +1 123 456 7890<br />
+          <strong>Correo electrónico:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, possimus.<br />
+          <strong>Dirección:</strong> Lorem ipsum dolor sit amet.
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h5>Síguenos en redes sociales</h5>
+        <div class="d-flex justify-content-center">
+          <a href="#">
+            <img
+              src="../images/facebookw.png"
+              alt="Facebook"
+              class="social-icon"
+              style="width: 50px; height: 50px; margin-right: 10px"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="../images/whatsappw.png"
+              alt="WhatsApp"
+              class="social-icon"
+              style="width: 50px; height: 50px; margin-right: 10px"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="../images/instagramw.png"
+              alt="Instagram"
+              class="social-icon"
+              style="width: 50px; height: 50px; margin-right: 10px"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12 order-md-last">
+        <h5 class="mb-3">Enlaces útiles</h5>
+        <div class="d-flex flex-column">
+          <a href="#" class="mb-2">Términos y condiciones</a>
+          <a href="#" class="mb-2">Política de privacidad</a>
+          <a href="#">Aviso legal</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- FIN FOOTER -->
+<!-- SCRIPTS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
