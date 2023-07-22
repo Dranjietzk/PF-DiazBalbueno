@@ -1,0 +1,24 @@
+.row {
+  .carousel-item img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .carousel-inner {
+    display: flex;
+    align-items: center;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+  .carousel-item:not(.active) {
+    display: none;
+  }
+}

@@ -54,7 +54,10 @@
   color: #ffffff;
   border-color: #050505;
 }
+
 .btn-outline-success:hover {
   background-color: #050505;
-  color: #fff;
-}/*# sourceMappingURL=style.css.map */
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */

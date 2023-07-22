@@ -13,6 +13,13 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    </head>
     <link rel="stylesheet" href="./css/style.css" />
     <title>GamingHouse</title>
   </head>
@@ -25,7 +32,8 @@
         data-bs-theme="dark"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">
+          <a data-aos="flip-left"
+          data-aos-duration="900" class="navbar-brand" href="./index.html">
             <img
               src="./images/joystick logo.png"
               alt="Logo"
@@ -54,49 +62,59 @@
                   class="nav-link active"
                   aria-current="page"
                   href="./index.html"
+                  data-aos="flip-left"
+                  data-aos-duration="900"
                   >Home</a
                 >
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link  dropdown-toggle"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
+                  data-aos="flip-left"
+                  data-aos-duration="900"
                 >
                   Consolas
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="./pages/pc.html">PC</a>
+                    <a data-aos="flip-left"
+                    data-aos-duration="900" 
+                    class="dropdown-item" href="./pages/pc.html">PC</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./pages/ps4.html"
+                    <a data-aos="flip-left"
+                    data-aos-duration="900" 
+                    class="dropdown-item" href="./pages/ps4.html"
                       >PlayStation</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="./pages/series-x.html"
+                    <a data-aos="flip-left"
+                    data-aos-duration="900" class="dropdown-item" href="./pages/series-x.html"
                       >Series X</a
                     >
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./pages/contact.html"
+                <a data-aos="flip-left" data-aos-duration="900" class="nav-link" href="./pages/contact.html"
                   >¡Contactanos!</a
                 >
               </li>
             </ul>
-            <form class="d-flex" role="search">
+            <form data-aos="flip-left"
+            data-aos-duration="900" class="d-flex" role="search">
               <input
                 class="form-control me-2"
                 type="search"
                 placeholder="Buscá tu juego..."
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
+              <button data-aos="flip-left" data-aos-duration="900" class="btn btn-outline-success" type="submit">
                 Buscar!
               </button>
             </form>
@@ -268,5 +286,9 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

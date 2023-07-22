@@ -9,6 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>GamingHouse</title>
 </head>
 <body>
@@ -16,7 +17,8 @@
 <header>
   <div class="navcontact">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="../index.html">
+    <a data-aos="flip-left"
+    data-aos-duration="900" class="navbar-brand" href="../index.html">
       <img
         src="../images/joystick logo.png"
         alt="Logo"
@@ -40,7 +42,8 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a
+              <a data-aos="flip-left"
+              data-aos-duration="900"
                 class="nav-link active"
                 aria-current="page"
                 href="../index.html"
@@ -48,7 +51,8 @@
               >
             </li>
             <li class="nav-item dropdown">
-              <a
+              <a data-aos="flip-left"
+              data-aos-duration="900"
                 class="nav-link dropdown-toggle"
                 href="#"
                 role="button"
@@ -59,20 +63,24 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="../pages/pc.html">PC</a>
+                  <a data-aos="flip-left"
+                  data-aos-duration="900" class="dropdown-item" href="../pages/pc.html">PC</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="../pages/ps4.html"
+                  <a data-aos="flip-left"
+                  data-aos-duration="900" class="dropdown-item" href="../pages/ps4.html"
                     >PlayStation</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="../pages/series-x.html"
+                  <a data-aos="flip-left"
+                  data-aos-duration="900" class="dropdown-item" href="../pages/series-x.html"
                     >Series X</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/contact.html"
+              <a data-aos="flip-left"
+              data-aos-duration="900" class="nav-link" href="../pages/contact.html"
                 >¡Contactanos!</a>
               </div>
             </div>
@@ -179,5 +187,9 @@
 <!-- FIN DE FOOTER -->
 <!-- SCRIPTS  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

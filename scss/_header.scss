@@ -1,0 +1,61 @@
+.navindex {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(2, 0, 36) 0%,
+    rgb(106, 9, 121) 76%,
+    rgb(106, 9, 121) 100%,
+    rgb(0, 212, 255) 100%
+  );
+}
+
+.navcontact {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(2, 0, 36) 0%,
+    rgb(106, 9, 121) 76%,
+    rgb(106, 9, 121) 100%,
+    rgb(0, 212, 255) 100%
+  );
+}
+
+.navps4 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(2, 0, 36) 0%,
+    rgb(8, 34, 108) 57%,
+    rgb(0, 134, 255) 96%
+  );
+}
+
+.navxbox {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(2, 0, 36) 0%,
+    rgb(23, 108, 8) 42%,
+    rgb(0, 255, 94) 96%
+  );
+}
+
+.navpc {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(2, 0, 36) 0%,
+    rgb(108, 8, 8) 64%,
+    rgb(113, 8, 10) 67%,
+    rgb(255, 0, 56) 100%
+  );
+}
+
+.btn-outline-success {
+  color: $color-boton;
+  border-color: $color-borde;
+}
+.btn-outline-success:hover {
+  background-color: $color-borde;
+  color: $color-boton;
+}
