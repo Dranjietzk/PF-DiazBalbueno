@@ -37,7 +37,6 @@
             class="d-inline-block align-text-top"
           />
         </a>
-
         <button
           class="navbar-toggler"
           type="button"
@@ -213,60 +212,79 @@
           </div>
         </div>
       </div>
-    </main>
-    <!-- FIN DEL MAIN  -->
-    <!-- INICIO FOOTER  -->
-<footer class="bg-dark text-center text-white py-4 mb-0">
-  <div class="container footer-container" style="margin-top: 25px">
-    <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-        <h5>Contacto</h5>
-        <p>
-          <strong>Teléfono:</strong> +1 123 456 7890<br />
-          <strong>Correo electrónico:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, possimus.<br />
-          <strong>Dirección:</strong> Lorem ipsum dolor sit amet.
-        </p>
+      <div class="center-btn-container">
+      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Comprar
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content bg-black text-light">
+      <div class="modal-header bg-black text-light">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Estás seguro que querés comprar este videojuego?</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-        <h5>Síguenos en redes sociales</h5>
-        <div class="d-flex justify-content-center">
-          <a href="#">
-            <img
-              src="../images/facebookw.png"
-              alt="Facebook"
-              class="social-icon"
-              style="width: 50px; height: 50px; margin-right: 10px"
-            />
-          </a>
-          <a href="#">
-            <img
-              src="../images/whatsappw.png"
-              alt="WhatsApp"
-              class="social-icon"
-              style="width: 50px; height: 50px; margin-right: 10px"
-            />
-          </a>
-          <a href="#">
-            <img
-              src="../images/instagramw.png"
-              alt="Instagram"
-              class="social-icon"
-              style="width: 50px; height: 50px; margin-right: 10px"
-            />
-          </a>
-        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-success">Comprar</button>
       </div>
-      <div class="col-lg-4 col-md-12 order-md-last">
-        <h5 class="mb-3">Enlaces útiles</h5>
-        <div class="d-flex flex-column">
-          <a href="#" class="mb-2">Términos y condiciones</a>
-          <a href="#" class="mb-2">Política de privacidad</a>
-          <a href="#">Aviso legal</a>
-        </div>
       </div>
     </div>
   </div>
-</footer>
+</div>
+    </main>
+    <!-- FIN DEL MAIN  -->
+    <!-- INICIO FOOTER  -->
+    <footer class="bg-dark text-center text-white py-4 mb-0">
+      <div class="container footer-container" style="margin-top: 25px">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5>Contacto</h5>
+            <p>
+              <strong>Teléfono:</strong> +1 123 456 7890<br />
+              <strong>Correo electrónico:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, possimus.<br />
+              <strong>Dirección:</strong> Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5>Síguenos en redes sociales</h5>
+            <div class="d-flex justify-content-center">
+              <a href="../pages/contact.html">
+                <img
+                  src="../images/facebookw.png"
+                  alt="Facebook"
+                  class="social-icon"
+                  style="width: 50px; height: 50px; margin-right: 10px"
+                />
+              </a>
+              <a href="../pages/contact.html">
+                <img
+                  src="../images/whatsappw.png"
+                  alt="WhatsApp"
+                  class="social-icon"
+                  style="width: 50px; height: 50px; margin-right: 10px"
+                />
+              </a>
+              <a href="../pages/contact.html">
+                <img
+                  src="../images/instagramw.png"
+                  alt="Instagram"
+                  class="social-icon"
+                  style="width: 50px; height: 50px; margin-right: 10px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 order-md-last">
+            <h5 class="mb-3">Enlaces útiles</h5>
+            <div class="d-flex flex-column">
+              <a href="../pages/contact.html" class="mb-2">Términos y condiciones</a>
+              <a href="../pages/contact.html" class="mb-2">Política de privacidad</a>
+              <a href="../pages/contact.html">Aviso legal</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 <!-- FIN FOOTER -->
 <!-- SCRIPTS -->
     <script

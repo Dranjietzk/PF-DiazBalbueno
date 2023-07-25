@@ -9,8 +9,12 @@
   max-width: 100%;
 }
 .row .carousel-inner {
-  display: flex;
-  align-items: center;
+  align-items: unset;
+}
+.row .carousel {
+  max-width: calc(100% - 320px);
+  margin-left: 15px;
+  margin-top: 2px;
 }
 .row .carousel-caption {
   position: absolute;
@@ -60,4 +64,30 @@
   color: #ffffff;
 }
 
-/*# sourceMappingURL=style.css.map */
+.d-flex.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.caja-oferta {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+.caja-oferta h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.caja-oferta img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.center-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+}/*# sourceMappingURL=style.css.map */

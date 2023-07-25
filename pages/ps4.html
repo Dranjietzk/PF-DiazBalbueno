@@ -215,60 +215,90 @@
           </div>
         </div>
       </div>
+      <div class="center-btn-container">
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        Comprar
+      </button>
+    </div>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header bg-primary">
+          <h5 class="offcanvas-title text-light" id="offcanvasExampleLabel">Información de Pago</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-black text-light">
+          <form>
+            <div class="mb-3">
+              <label for="cardNumber" class="form-label">Número de Tarjeta</label>
+              <input type="text" class="form-control" id="cardNumber" placeholder="Ingresa el número de tarjeta" required>
+            </div>
+            <div class="mb-3">
+              <label for="expirationDate" class="form-label">Fecha de Vencimiento</label>
+              <input type="text" class="form-control" id="expirationDate" placeholder="MM/AA" required>
+            </div>
+            <div class="mb-3">
+              <label for="cvv" class="form-label">Código CVV</label>
+              <input type="text" class="form-control" id="cvv" placeholder="Ingresa el código CVV" required>
+            </div>
+            <!-- Agrega aquí otros campos que necesites para la información de pago -->
+            <button type="submit" class="btn btn-primary">Pagar</button>
+          </form>
+        </div>
+      </div>
+      
     </main>
     <!-- FIN DEL MAIN  -->
     <!-- INICIO FOOTER  -->
-<footer class="bg-dark text-center text-white py-4 mb-0">
-  <div class="container footer-container" style="margin-top: 25px">
-    <div class="row">
-      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-        <h5>Contacto</h5>
-        <p>
-          <strong>Teléfono:</strong> +1 123 456 7890<br />
-          <strong>Correo electrónico:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, possimus.<br />
-          <strong>Dirección:</strong> Lorem ipsum dolor sit amet.
-        </p>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-        <h5>Síguenos en redes sociales</h5>
-        <div class="d-flex justify-content-center">
-          <a href="#">
-            <img
-              src="../images/facebookw.png"
-              alt="Facebook"
-              class="social-icon"
-              style="width: 50px; height: 50px; margin-right: 10px"
-            />
-          </a>
-          <a href="#">
-            <img
-              src="../images/whatsappw.png"
-              alt="WhatsApp"
-              class="social-icon"
-              style="width: 50px; height: 50px; margin-right: 10px"
-            />
-          </a>
-          <a href="#">
-            <img
-              src="../images/instagramw.png"
-              alt="Instagram"
-              class="social-icon"
-              style="width: 50px; height: 50px; margin-right: 10px"
-            />
-          </a>
+    <footer class="bg-dark text-center text-white py-4 mb-0">
+      <div class="container footer-container" style="margin-top: 25px">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5>Contacto</h5>
+            <p>
+              <strong>Teléfono:</strong> +1 123 456 7890<br />
+              <strong>Correo electrónico:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, possimus.<br />
+              <strong>Dirección:</strong> Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5>Síguenos en redes sociales</h5>
+            <div class="d-flex justify-content-center">
+              <a href="../pages/contact.html">
+                <img
+                  src="../images/facebookw.png"
+                  alt="Facebook"
+                  class="social-icon"
+                  style="width: 50px; height: 50px; margin-right: 10px"
+                />
+              </a>
+              <a href="../pages/contact.html">
+                <img
+                  src="../images/whatsappw.png"
+                  alt="WhatsApp"
+                  class="social-icon"
+                  style="width: 50px; height: 50px; margin-right: 10px"
+                />
+              </a>
+              <a href="../pages/contact.html">
+                <img
+                  src="../images/instagramw.png"
+                  alt="Instagram"
+                  class="social-icon"
+                  style="width: 50px; height: 50px; margin-right: 10px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 order-md-last">
+            <h5 class="mb-3">Enlaces útiles</h5>
+            <div class="d-flex flex-column">
+              <a href="../pages/contact.html" class="mb-2">Términos y condiciones</a>
+              <a href="../pages/contact.html" class="mb-2">Política de privacidad</a>
+              <a href="../pages/contact.html">Aviso legal</a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-lg-4 col-md-12 order-md-last">
-        <h5 class="mb-3">Enlaces útiles</h5>
-        <div class="d-flex flex-column">
-          <a href="#" class="mb-2">Términos y condiciones</a>
-          <a href="#" class="mb-2">Política de privacidad</a>
-          <a href="#">Aviso legal</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+    </footer>
 <!-- FIN FOOTER -->
 <!-- SCRIPTS -->
     <script
