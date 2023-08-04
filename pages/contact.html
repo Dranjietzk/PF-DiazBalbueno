@@ -1,173 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta author="Tomás Díaz Balbueno" />
+    <meta
+      description="Sección de contacto, ya sea para solucionar un problema o para que conozcan la historia de la página."
+    />
+    <meta
+      keywords="Contacto, Mandar mensaje, Solucionar problemas, Contactarse, Llamar, Soporte, Atención al cliente, Número, Email"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>GamingHouse</title>
+  </head>
 
-<head>
-  <meta author="Tomás Díaz Balbueno">
-  <meta description="Sección de contacto, ya sea para solucionar un problema o para que conozcan la historia de la página.">
-  <meta keywords="Contacto, Mandar mensaje, Solucionar problemas, Contactarse, Llamar, Soporte, Atención al cliente, Número, Email">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <title>GamingHouse</title>
-</head>
-
-<body class="bodycontact">
-  <!-- INICIO HEADER  -->
-  <header>
-    <div class="navcontact">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a data-aos="flip-left" data-aos-duration="900" class="navbar-brand" href="../index.html">
-          <img src="../images/joystick logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- INTERIOR DEL NAV -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a data-aos="flip-left" data-aos-duration="900" class="nav-link active" aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a data-aos="flip-left" data-aos-duration="900" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Consolas
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a data-aos="flip-left" data-aos-duration="900" class="dropdown-item" href="../pages/pc.html">PC</a>
-                </li>
-                <li>
-                  <a data-aos="flip-left" data-aos-duration="900" class="dropdown-item" href="../pages/ps4.html">PlayStation</a>
-                </li>
-                <li>
-                  <a data-aos="flip-left" data-aos-duration="900" class="dropdown-item" href="../pages/series-x.html">Series X</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a data-aos="flip-left" data-aos-duration="900" class="nav-link" href="../pages/contact.html">¡Contactanos!</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!-- FIN DE HEADER -->
-  <!-- INICIO MAIN -->
-  <main style="margin-bottom: 150px;">
-    <section id="about" class="py-5">
-      <div class="container text-light">
-        <h2 class="bordered-text">Acerca de</h2>
-        <p class="bordered-text">En una ciudad con una creciente comunidad de jugadores, un grupo de amigos apasionados por los videojuegos fundó "Gaming House", un negocio online que ofrece un extenso catálogo de títulos clásicos y nuevos. Con un enfoque en el excelente servicio al cliente, se convirtió en un destino confiable para jugadores de todas las edades, brindando entretenimiento digital a nivel mundial.</p>
+  <body class="bodycontact">
+    <!-- INICIO HEADER  -->
+    <header>
+      <div class="navcontact">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a
+            data-aos="flip-left"
+            data-aos-duration="900"
+            class="navbar-brand"
+            href="../index.html"
+          >
+            <img
+              src="../images/joystick logo.png"
+              alt="Logo"
+              width="100"
+              height="100"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- INTERIOR DEL NAV -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  data-aos="flip-left"
+                  data-aos-duration="900"
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  data-aos="flip-left"
+                  data-aos-duration="900"
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Consolas
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      data-aos="flip-left"
+                      data-aos-duration="900"
+                      class="dropdown-item"
+                      href="../pages/pc.html"
+                      >PC</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      data-aos="flip-left"
+                      data-aos-duration="900"
+                      class="dropdown-item"
+                      href="../pages/ps4.html"
+                      >PlayStation</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      data-aos="flip-left"
+                      data-aos-duration="900"
+                      class="dropdown-item"
+                      href="../pages/series-x.html"
+                      >Series X</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  data-aos="flip-left"
+                  data-aos-duration="900"
+                  class="nav-link"
+                  href="../pages/contact.html"
+                  >¡Contactanos!</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </section>
-    <!-- INICIO SECTION CONTACTO -->
-    <section id="contact" class="py-5">
-      <div class="container text-light">
-        <h2 class="bordered-text">Contacto</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h3 class="accordion-header" id="headingOne">
-                  <button class="accordion-button bg-black text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Información de contacto 1
-                  </button>
-                </h3>
-                <div id="collapseOne" class="accordion-collapse collapse show bg-black text-light" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p><strong>Teléfono:</strong> +1 123 456 7890</p>
-                    <p><strong>Correo electrónico:</strong> gaminghouse@gmail.com</p>
-                    <p><strong>Dirección:</strong> Calle Falsa 123</p>
-                    <p>Redes sociales: <a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">WhatsApp</a></p>
+    </header>
+    <!-- FIN DE HEADER -->
+    <!-- INICIO MAIN -->
+    <main style="margin-bottom: 150px">
+      <section id="about" class="py-5">
+        <div class="container text-light">
+          <h2 class="bordered-text">Acerca de</h2>
+          <p class="bordered-text">
+            En una ciudad con una creciente comunidad de jugadores, un grupo de
+            amigos apasionados por los videojuegos fundó "Gaming House", un
+            negocio online que ofrece un extenso catálogo de títulos clásicos y
+            nuevos. Con un enfoque en el excelente servicio al cliente, se
+            convirtió en un destino confiable para jugadores de todas las
+            edades, brindando entretenimiento digital a nivel mundial.
+          </p>
+        </div>
+      </section>
+      <!-- INICIO SECTION CONTACTO -->
+      <section id="contact" class="py-5">
+        <div class="container text-light">
+          <h2 class="bordered-text">Contacto</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h3 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button bg-black text-light"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Información de contacto 1
+                    </button>
+                  </h3>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show bg-black text-light"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p><strong>Teléfono:</strong> +1 123 456 7890</p>
+                      <p>
+                        <strong>Correo electrónico:</strong>
+                        gaminghouse@gmail.com
+                      </p>
+                      <p><strong>Dirección:</strong> Calle Falsa 123</p>
+                      <p>
+                        Redes sociales: <a href="#">Facebook</a>,
+                        <a href="#">Instagram</a>, <a href="#">WhatsApp</a>
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item bg-black text-light">
-                <h3 class="accordion-header" id="headingTwo">
-                  <button class="accordion-button collapsed bg-black text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Información de contacto 2
-                  </button>
-                </h3>
-                <div id="collapseTwo" class="accordion-collapse collapse bg-black" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                    <p><strong>Teléfono:</strong> +1 123 456 7890</p>
-                    <p><strong>Correo electrónico:</strong> gaminghouse@gmail.com</p>
-                    <p><strong>Dirección:</strong> Calle Falsa 123</p>
-                    <p>Redes sociales: <a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">WhatsApp</a></p>
+                <div class="accordion-item bg-black text-light">
+                  <h3 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed bg-black text-light"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Información de contacto 2
+                    </button>
+                  </h3>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse bg-black"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p><strong>Teléfono:</strong> +1 123 456 7890</p>
+                      <p>
+                        <strong>Correo electrónico:</strong>
+                        gaminghouse@gmail.com
+                      </p>
+                      <p><strong>Dirección:</strong> Calle Falsa 123</p>
+                      <p>
+                        Redes sociales: <a href="#">Facebook</a>,
+                        <a href="#">Instagram</a>, <a href="#">WhatsApp</a>
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="col-md-6">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label bordered-text"
+                    >Nombre</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Ingrese su nombre"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label bordered-text"
+                    >Correo electrónico</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Ingrese su correo electrónico"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label bordered-text"
+                    >Mensaje</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Escriba su mensaje aquí"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Enviar</button>
+              </form>
+            </div>
           </div>
-          <div class="col-md-6">
-            <form>
-              <div class="mb-3">
-                <label for="name" class="form-label bordered-text">Nombre</label>
-                <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre">
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label bordered-text">Correo electrónico</label>
-                <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
-              </div>
-              <div class="mb-3">
-                <label for="message" class="form-label bordered-text">Mensaje</label>
-                <textarea class="form-control" id="message" rows="4" placeholder="Escriba su mensaje aquí"></textarea>
-              </div>
-              <button type="submit" class="btn btn-success">Enviar</button>
-            </form>
+        </div>
+      </section>
+    </main>
+    <!-- FIN DE MAIN -->
+    <!-- INICIO FOOTER -->
+    <footer class="bg-dark text-center text-white py-4 mb-0">
+      <div class="container footer-container" style="margin-top: 80px">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5>Contacto</h5>
+            <p>
+              <strong>Teléfono:</strong> +1 123 456 7890<br />
+              <strong>Correo electrónico:</strong> gaminghouse@gmail.com<br />
+              <strong>Dirección:</strong> Calle Falsa 123
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5>Síguenos en redes sociales</h5>
+            <div class="d-flex justify-content-center">
+              <a href="../pages/contact.html">
+                <img
+                  src="../images/facebookw.png"
+                  alt="Facebook"
+                  class="social-icon"
+                  style="width: 50px; height: 50px; margin-right: 10px"
+                />
+              </a>
+              <a href="../pages/contact.html">
+                <img
+                  src="../images/whatsappw.png"
+                  alt="WhatsApp"
+                  class="social-icon"
+                  style="width: 50px; height: 50px; margin-right: 10px"
+                />
+              </a>
+              <a href="../pages/contact.html">
+                <img
+                  src="../images/instagramw.png"
+                  alt="Instagram"
+                  class="social-icon"
+                  style="width: 50px; height: 50px; margin-right: 10px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 order-md-last">
+            <h5 class="mb-3">Enlaces útiles</h5>
+            <div class="d-flex flex-column">
+              <a href="../pages/contact.html" class="mb-2"
+                >Términos y condiciones</a
+              >
+              <a href="../pages/contact.html" class="mb-2"
+                >Política de privacidad</a
+              >
+              <a href="../pages/contact.html">Aviso legal</a>
+            </div>
           </div>
         </div>
       </div>
-    </section>
-  </main>
-  <!-- FIN DE MAIN -->
-  <!-- INICIO FOOTER -->
-  <footer class="bg-dark text-center text-white py-4 mb-0">
-    <div class="container footer-container" style="margin-top: 80px">
-      <div class="row">
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5>Contacto</h5>
-          <p>
-            <strong>Teléfono:</strong> +1 123 456 7890<br />
-            <strong>Correo electrónico:</strong> gaminghouse@gmail.com<br />
-            <strong>Dirección:</strong> Calle Falsa 123 </p>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5>Síguenos en redes sociales</h5>
-          <div class="d-flex justify-content-center">
-            <a href="../pages/contact.html">
-              <img src="../images/facebookw.png" alt="Facebook" class="social-icon" style="width: 50px; height: 50px; margin-right: 10px" />
-            </a>
-            <a href="../pages/contact.html">
-              <img src="../images/whatsappw.png" alt="WhatsApp" class="social-icon" style="width: 50px; height: 50px; margin-right: 10px" />
-            </a>
-            <a href="../pages/contact.html">
-              <img src="../images/instagramw.png" alt="Instagram" class="social-icon" style="width: 50px; height: 50px; margin-right: 10px" />
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12 order-md-last">
-          <h5 class="mb-3">Enlaces útiles</h5>
-          <div class="d-flex flex-column">
-            <a href="../pages/contact.html" class="mb-2">Términos y condiciones</a>
-            <a href="../pages/contact.html" class="mb-2">Política de privacidad</a>
-            <a href="../pages/contact.html">Aviso legal</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- FIN DE FOOTER -->
-  <!-- SCRIPTS  -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
-
+    </footer>
+    <!-- FIN DE FOOTER -->
+    <!-- SCRIPTS  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
